@@ -50,6 +50,7 @@ header div {
   display: flex;
   flex-direction: column;
   background: rgb(190, 34, 34);
+  z-index: 5;
 }
 #sidenav a {
   text-decoration: none;
