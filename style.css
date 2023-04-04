@@ -40,6 +40,9 @@ header div {
   align-items: center;
   justify-content: space-between;
 }
+#topnav {
+  z-index: 3;
+}
 #sidenav {
   position: fixed;
   height: 100%;
