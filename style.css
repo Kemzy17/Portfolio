@@ -30,6 +30,56 @@ main {
   background-blend-mode: darken;
   padding-bottom: 50px;
 }
+header {
+  display: flex;
+}
+header div {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+#sidenav {
+  position: fixed;
+  height: 100%;
+  right: -280px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(190, 34, 34);
+}
+#sidenav a {
+  text-decoration: none;
+  padding: 10px 60px;
+  color: white;
+  font-size: 20px;
+}
+#sidenav a:hover {
+  background: #fff;
+  color: rgb(190, 34, 34);
+}
+#open {
+  font-size: 40px;
+  cursor: pointer;
+  color: #fff;
+  margin-right: 20px;
+}
+header div h1 {
+  color: #fff;
+  padding: 20px 10px 10px 5%;
+}
+#close {
+  position: absolute;
+  right: 0px;
+  font-size: 40px;
+  padding: 0px 10px;
+  color: #fff;
+  cursor: pointer;
+}
+#close:hover {
+  background: #fff;
+  color: rgb(190, 34, 34);
+}
 .main-head {
   padding-top: 120px;
   padding-bottom: 60px;
